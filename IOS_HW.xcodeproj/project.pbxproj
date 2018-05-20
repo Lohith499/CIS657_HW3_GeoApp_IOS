@@ -14,6 +14,10 @@
 		E6D02E3520B11C3F004560E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D02E3320B11C3F004560E9 /* LaunchScreen.storyboard */; };
 		E6D02E4020B11C3F004560E9 /* IOS_HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D02E3F20B11C3F004560E9 /* IOS_HWTests.swift */; };
 		E6D02E4B20B11C3F004560E9 /* IOS_HWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D02E4A20B11C3F004560E9 /* IOS_HWUITests.swift */; };
+		E6D02E5B20B12F6C004560E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D02E5A20B12F6C004560E9 /* SettingsView.swift */; };
+		E6D02E5D20B13252004560E9 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6D02E5C20B13252004560E9 /* download.jpeg */; };
+		E6D02E6320B1F431004560E9 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D02E6220B1F431004560E9 /* CLLocationExtensions.swift */; };
+		E6D02E6520B1F466004560E9 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D02E6420B1F466004560E9 /* DecimalMinusTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E6D02E4620B11C3F004560E9 /* IOS_HWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_HWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D02E4A20B11C3F004560E9 /* IOS_HWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HWUITests.swift; sourceTree = "<group>"; };
 		E6D02E4C20B11C3F004560E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D02E5A20B12F6C004560E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E6D02E5C20B13252004560E9 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpeg; path = ../../../../Downloads/download.jpeg; sourceTree = "<group>"; };
+		E6D02E6220B1F431004560E9 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationExtensions.swift; sourceTree = "<group>"; };
+		E6D02E6420B1F466004560E9 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				E6D02E2A20B11C3D004560E9 /* AppDelegate.swift */,
 				E6D02E2C20B11C3D004560E9 /* ViewController.swift */,
+				E6D02E5A20B12F6C004560E9 /* SettingsView.swift */,
 				E6D02E2E20B11C3D004560E9 /* Main.storyboard */,
 				E6D02E3120B11C3F004560E9 /* Assets.xcassets */,
+				E6D02E5C20B13252004560E9 /* download.jpeg */,
 				E6D02E3320B11C3F004560E9 /* LaunchScreen.storyboard */,
 				E6D02E3620B11C3F004560E9 /* Info.plist */,
+				E6D02E6220B1F431004560E9 /* CLLocationExtensions.swift */,
+				E6D02E6420B1F466004560E9 /* DecimalMinusTextField.swift */,
 			);
 			path = IOS_HW;
 			sourceTree = "<group>";
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D02E3520B11C3F004560E9 /* LaunchScreen.storyboard in Resources */,
+				E6D02E5D20B13252004560E9 /* download.jpeg in Resources */,
 				E6D02E3220B11C3F004560E9 /* Assets.xcassets in Resources */,
 				E6D02E3020B11C3D004560E9 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D02E5B20B12F6C004560E9 /* SettingsView.swift in Sources */,
+				E6D02E6320B1F431004560E9 /* CLLocationExtensions.swift in Sources */,
 				E6D02E2D20B11C3D004560E9 /* ViewController.swift in Sources */,
+				E6D02E6520B1F466004560E9 /* DecimalMinusTextField.swift in Sources */,
 				E6D02E2B20B11C3D004560E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
